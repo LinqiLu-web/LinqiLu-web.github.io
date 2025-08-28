@@ -35,27 +35,32 @@ layout: default
       <div class="research-interests">{{ page.research_interests }}</div>
       <div class="personal-interests">{{ page.personal_interests }}</div>
     </div>
+
+    <div class="biography-container">
+      <div class="clearfix">{{ content }}</div>
+    </div>
+
      {% if page.social %}
         <!-- ✅ Full-width horizontal social bar with paired icons and labels -->
         <div class="social horizontal">
           <div class="contact-icons">
             <div class="social-item">
-              <a href="https://scholar.google.com">
+              <a href="https://scholar.google.com/citations?user=78Fr7LIAAAAJ&hl=en&oi=ao">
                 <i class="ai ai-google-scholar"></i><span>Google Scholar</span>
               </a>
             </div>
             <div class="social-item">
-              <a href="https://github.com/yourname">
+              <a href="https://github.com/LynLinqiLu">
                 <i class="fab fa-github"></i><span>GitHub</span>
               </a>
             </div>
             <div class="social-item">
-              <a href="https://twitter.com/yourhandle">
+              <a href="https://x.com/LinqiLu_">
                 <i class="fab fa-x-twitter"></i>
               </a>
             </div>
             <div class="social-item">
-              <a href="https://facebook.com/yourprofile">
+              <a href="https://www.facebook.com/linqi.lu/">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </div>
@@ -63,32 +68,21 @@ layout: default
         </div>
       {% endif %}
 
-    <div class="biography-container">
-      <div class="clearfix">{{ content }}</div>
-    </div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
+    <!-- recent -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">recent</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
-   
+
    
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -97,11 +91,21 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
 
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
   
    <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons">{% include social.liquid %}
+          
+        </div>
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}

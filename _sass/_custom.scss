@@ -13,11 +13,11 @@
 
 //TOCHECK
 body {
-    background-color: #f2f2f2 !important; // 整个淡灰色背景
+  background-color: var(--global-bg-color) !important;
 }
   
 .navbar {
-    background-color: #ffffff !important; // 强制导航栏保持白色，避免受body背景影响
+  background-color: var(--global-card-bg-color) !important;
 }
 
 .biography-container {
@@ -27,7 +27,7 @@ body {
     .post-title {
       font-size: 6rem;
       font-weight: 900;
-      color: #222;
+      color: var(--global-social-bar-text-color);
       margin-bottom: 4rem;
   
       .font-weight-bold {
@@ -36,7 +36,7 @@ body {
     }
   
     .desc {
-      color: #222;
+      color: var(--global-social-bar-text-color);
     }
     .desc p {
         font-size: 2.4rem ; //自定义页面字体
@@ -86,7 +86,7 @@ body {
     .site-name-line {
         font-size: 2.4rem;
         //font-weight: 700;
-        color: #000;
+        color: var(--global-text-color);
         text-align: left;
         text-transform: uppercase; // 👈 全部大写
      }
@@ -95,4 +95,8 @@ body {
 
 .news {
     font-size: 3rem !important; // 或 16px、18px，按你需要的大小改
+  }
+
+  .social.horizontal {
+    background-color: var(--global-card-bg-color);
   }
