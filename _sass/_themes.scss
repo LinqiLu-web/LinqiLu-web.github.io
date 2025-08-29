@@ -6,6 +6,7 @@
 
 :root {
   color-scheme: light;
+  --global-button-bg-color: #{$white-color};
   --global-social-bar-text-color: #{$black-color};
   --global-bg-color: #{$bg-color};
   --global-code-bg-color: #{$code-bg-color-light};
@@ -79,6 +80,7 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
+  --global-button-bg-color: #{$grey-900};
   --global-social-bar-text-color: #{$white-color};
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
