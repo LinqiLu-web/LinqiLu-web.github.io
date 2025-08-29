@@ -416,12 +416,13 @@ ul.task-list input[type="checkbox"] {
   &.horizontal {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
-    padding: 3rem 0 2rem;
+    padding: 1rem 0 1rem;
     display: flex;
     justify-content: center;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-
+    margin-bottom: 1.5rem;
+    
     .contact-icons {
       display: flex !important;;
       flex-wrap: wrap !important;;
@@ -446,7 +447,7 @@ ul.task-list input[type="checkbox"] {
         }
 
         span {
-          font-size: 3rem;
+          font-size: 2rem;
         }
 
         &:hover {
