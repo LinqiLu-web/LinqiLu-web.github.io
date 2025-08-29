@@ -394,15 +394,22 @@ ul.task-list input[type="checkbox"] {
 #light-toggle,
 #search-toggle {
   padding: 0;
-  border: 0;
-  background-color: inherit;
+  border: none;
+  background-color: white;
   color: var(--global-text-color);
 
   &:hover {
+    background: none; 
     color: var(--global-hover-color);
   }
 }
 
+#search-toggle button {
+  background: white;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+}
 // Social (bottom)
 
 .social {
