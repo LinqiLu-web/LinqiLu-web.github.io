@@ -295,9 +295,16 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  .navbar-nav .nav-item {
+    margin-left: 0.9rem;   // 每个 item 左边间距
+    margin-right: 0.9rem;  // 每个 item 右边间距
+  }
+
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-
+    font-size: 1rem;        // 调小字号，1rem ≈ 16px
+    line-height: 1.2;       // 可选：让上下更紧凑些
+  
     &:hover {
       color: var(--global-hover-color);
     }

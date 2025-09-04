@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: About
 permalink: /
 # subtitle: >
 #   <p>Ph.D. candidate (ABD on job market)</p>
