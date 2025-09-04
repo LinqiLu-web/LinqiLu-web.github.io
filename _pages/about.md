@@ -9,17 +9,17 @@ permalink: /
 #   <p>Email: llu84@wisc.edu</a></p>
 #   TOCHECK if need href
 subtitle: >
-  Ph.D. candidate (ABD on job market); Lecturer<br>
-  School of Journalism and Mass Communication<br>
-  University of Wisconsin-Madison<br>
+  Assistant Professor<br>
+  Department of Communication<br>
+  University of North Dakota<br>
   Email: <a href="mailto:linqi.lu@UND.edu">linqi.lu@UND.edu</a><br>
 
 research_interests: >
-  Emerging Media Technology | Multimodal Strategy | <br>
-  Human-AI Interaction | Media Effects | Information Engagement
+  Human-AI Interaction | Health Technology | Media Psychology | <br>
+  Multimodal Communication |  Computational Social Science
 
 personal_interests: >
-  Researcher, Amateur pianist, Certificate Diver
+  
 
 profile:
   align: right
@@ -47,5 +47,3 @@ announcements:
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-
-Lu’s research is highly interdisciplinary, bridging communication, computer science, and psychology. She focuses on multimodal framing, emerging AI technologies, and the critical role of communication in advancing public health, social justice, and public safety.
