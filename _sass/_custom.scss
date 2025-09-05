@@ -89,6 +89,18 @@ body {
      }
 }
 
+.custom-ol {
+  list-style-type: decimal;   /* 显示 1,2,3,4 */
+  padding-left: 1.2rem;       /* 控制缩进 */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.custom-ol li {
+  margin-bottom: 1.2rem;        /* 每项之间增加间距 */
+  background: transparent;    /* 去掉白底，跟随大背景 */
+  border: none;               /* 去掉任何边框 */
+}
 
 .news {
     font-size: 3rem !important; // 或 16px、18px，按你需要的大小改
