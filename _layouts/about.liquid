@@ -117,9 +117,9 @@ layout: default
    
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h3>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
+      </h3>
       {% include selected_papers.liquid %}
     {% endif %}
 
@@ -130,9 +130,9 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h3>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+      </h3>
       {% include news.liquid limit=true %}
     {% endif %}
   
