@@ -22,6 +22,8 @@ nav_order: 3
 - **Instructor:** COMM516 **Principles of Professional Communication** (Fall 2025, 40 students):  
   A graduate-level course featuring a conceptual and historical overview of the scholarly discipline of communication, coupled with an introduction to major communication theories and their applications in professional contexts.
 
+<br>  <!-- 两个换行标签，等于加大间距 -->
+
 ---
 
 ## University of Wisconsin–Madison
