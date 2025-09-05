@@ -14,7 +14,7 @@ nav_order: 3
 
 ---
 
-## University of North Dakota
+### University of North Dakota
 
 - **Instructor:** COMM451 **Risk and Crisis Communication** (Fall 2025, 36 students):  
   An undergraduate course focusing on the principles and practices of risk and crisis communication. The course examined how individuals, organizations, and public agencies communicate during times of uncertainty and crisis, with attention to theory, strategy, and case applications.
@@ -26,7 +26,7 @@ nav_order: 3
 
 ---
 
-## University of Wisconsin–Madison
+### University of Wisconsin–Madison
 
 - **Lab Instructor:** J564 **Media and the Consumer** (Fall 2023, 4 lab sections, 100 students total):  
   Taught interactive workshops on data-driven media analysis, strategic communication, and consumer behavior.  
