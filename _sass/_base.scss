@@ -23,6 +23,10 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+html, body {
+  font-size: 20px;   // 默认是 1rem = 16px，这里改成 ~14.4px
+}
+
 table {
   td,
   th {
