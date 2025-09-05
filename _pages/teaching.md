@@ -2,11 +2,38 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<p >
+  <img src="/assets/img/teaching1.jpg" alt="Teaching photo 1" style="max-width:45%; margin:0 10px;">
+  <img src="/assets/img/teaching2.jpg" alt="Teaching photo 2" style="max-width:45%; margin:0 10px;">
+</p>
 
-Organize your courses by years, topics, or universities, however you like!
+---
+
+## University of North Dakota
+
+- **Instructor:** COMM451 **Risk and Crisis Communication** (Fall 2025, 36 students):  
+  An undergraduate course focusing on the principles and practices of risk and crisis communication. The course examined how individuals, organizations, and public agencies communicate during times of uncertainty and crisis, with attention to theory, strategy, and case applications.
+
+- **Instructor:** COMM516 **Principles of Professional Communication** (Fall 2025, 40 students):  
+  A graduate-level course featuring a conceptual and historical overview of the scholarly discipline of communication, coupled with an introduction to major communication theories and their applications in professional contexts.
+
+---
+
+## University of Wisconsin–Madison
+
+- **Lab Instructor:** J564 **Media and the Consumer** (Fall 2023, 4 lab sections, 100 students total):  
+  Taught interactive workshops on data-driven media analysis, strategic communication, and consumer behavior.  
+  *Teaching Evaluation: 4.30/5.00*
+
+- **Lab Instructor:** J203 **Information for Communication** (Spring 2023, 50 students):  
+  Taught fact checking skills, evidence-based storytelling, and data analysis and visualization techniques.  
+  *Teaching Evaluation: 4.68/5.00*
+
+- **Lab Instructor:** J564 **Media and the Consumer** (Fall 2022, 4 lab sections, 100 students total):  
+  Taught interactive workshops on data-driven media analysis, strategic communication, and consumer behavior.  
+  *Teaching Evaluation: 4.72/5.00*
