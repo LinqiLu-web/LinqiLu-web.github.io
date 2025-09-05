@@ -303,7 +303,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     font-size: 1rem;        // 调小字号，1rem ≈ 16px
-    line-height: 1.2;       // 可选：让上下更紧凑些
+    line-height: 2.2;       // 可选：让上下更紧凑些
   
     &:hover {
       color: var(--global-hover-color);
@@ -398,6 +398,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+
 #light-toggle,
 #search-toggle {
   padding: 0;
@@ -421,12 +422,13 @@ ul.task-list input[type="checkbox"] {
 .social {
   &.horizontal {
     margin-left: calc(-50vw + 50%);
-    padding: 0.1rem 0 0.1rem;
+    padding: 0.2rem 0 0.2rem;
     display: flex;
     justify-content: center;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     
     .contact-icons {
       display: flex !important;;
