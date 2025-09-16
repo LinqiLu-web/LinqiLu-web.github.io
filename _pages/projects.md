@@ -1,12 +1,13 @@
 ---
 layout: page
-title: AI-Agent Design
+title: "AI-Agent<br>Design"
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 6
-display_categories: [work, fun]
+display_categories: 
 horizontal: false
+nav_classes: ai-agent
 ---
 
 <!-- pages/projects.md -->

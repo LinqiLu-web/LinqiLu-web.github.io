@@ -1,0 +1,32 @@
+<div class="card mb-3 shadow-sm">
+  <div class="row no-gutters">
+    {% if paper.preview %}
+    <div class="col-md-4">
+      <img src="{{ paper.preview }}" class="card-img" alt="{{ paper.title }}">
+    </div>
+    {% endif %}
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ paper.title }}</h5>
+        {% if paper.authors %}
+          <p class="card-text"><small>{{ paper.authors }}</small></p>
+        {% endif %}
+        <p class="card-text">
+          <small class="text-muted">
+            {% if paper.year %}{{ paper.year }}{% endif %}
+            {% if paper.arxiv %} | arXiv:{{ paper.arxiv }}{% endif %}
+          </small>
+        </p>
+        {% if paper.url %}
+          <a href="{{ paper.url }}" class="btn btn-sm btn-primary" target="_blank">arXiv</a>
+        {% endif %}
+        {% if paper.pdf %}
+          <a href="{{ paper.pdf }}" class="btn btn-sm btn-outline-secondary" target="_blank">PDF</a>
+        {% endif %}
+        {% if paper.demo %}
+          <a href="{{ paper.demo }}" class="btn btn-sm btn-success" target="_blank">Demo</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

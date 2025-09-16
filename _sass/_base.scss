@@ -299,6 +299,15 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  .navbar-nav .nav-link[href="/projects/"] {
+    line-height: 1.2 !important;       /* 缩小两行之间的行距 */
+    // padding-top: 0.2rem;    /* 上下间距调小 */
+    padding-bottom: 0.2rem;
+    display: inline-block;  /* 避免被继承的 line-height 撑开 */
+    vertical-align: middle; /* 保证和单行项居中对齐 */
+    text-align: center;     /* 两行居中排版 */
+  }
+
   .navbar-nav .nav-item {
     margin-left: 0.9rem;   // 每个 item 左边间距
     margin-right: 0.9rem;  // 每个 item 右边间距
@@ -314,6 +323,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;

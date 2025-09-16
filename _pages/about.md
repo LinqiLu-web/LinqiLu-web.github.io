@@ -23,7 +23,7 @@ personal_interests: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: image.png
   image_circular: false # crops the image to make it circular
   more_info: >
 

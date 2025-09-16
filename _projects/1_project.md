@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: page
 title: project 1
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/catbot.jpg
 importance: 1
 category: work
 related_publications: true
@@ -78,4 +78,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
