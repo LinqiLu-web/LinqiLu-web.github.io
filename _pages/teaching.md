@@ -16,10 +16,10 @@ nav_order: 3
 
 ### University of North Dakota
 
-- **Instructor:** COMM451 **Risk and Crisis Communication** (Fall 2025, 36 students):  
+- **Instructor:** COMM451 **Risk and Crisis Communication** (Fall 2025):  
   An undergraduate course focusing on the principles and practices of risk and crisis communication. The course examined how individuals, organizations, and public agencies communicate during times of uncertainty and crisis, with attention to theory, strategy, and case applications.
 
-- **Instructor:** COMM516 **Principles of Professional Communication** (Fall 2025, 40 students):  
+- **Instructor:** COMM516 **Principles of Professional Communication** (Fall 2025):  
   A graduate-level course featuring a conceptual and historical overview of the scholarly discipline of communication, coupled with an introduction to major communication theories and their applications in professional contexts.
 
 <br>  <!-- 两个换行标签，等于加大间距 -->

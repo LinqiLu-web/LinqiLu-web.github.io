@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI-Design
+title: AI-Agent Design
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
