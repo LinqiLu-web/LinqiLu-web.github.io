@@ -29,7 +29,7 @@ category: work
   <div class="col-md-7 ">
     <p>
       Purrfessor is a multimodal health chatbot that analyzes meals 
-      with images + text and offers personalized diet guidance.  
+      with images + text and offers diet guidance.  
       Fine-tuned on food and nutrition data, it improves user engagement and care 
       compared to standard GPT-4.
     </p>
