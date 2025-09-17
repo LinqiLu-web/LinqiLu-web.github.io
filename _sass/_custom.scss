@@ -23,6 +23,7 @@ body {
 .biography-container {
     padding-top: 3rem;
     padding-bottom: 1rem;
+    margin-left: 26rem;
   
     .post-title {
       font-size: 2.5rem;
@@ -104,4 +105,17 @@ body {
 
 .news {
     font-size: 3rem !important; // 或 16px、18px，按你需要的大小改
+  }
+
+  .btn-paper {
+    background-color: #388e3c;   /* 稍微浅一点的绿色 */
+    border-color: #388e3c;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .btn-paper:hover {
+    background-color: #2e7d32;   /* hover 时更深 */
+    border-color: #2e7d32;
+    color: #fff;
   }

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI-Agent<br>Design"
+title: "AI&#8209;Agent Design"
 permalink: /projects/
 description: 
 nav: true

@@ -22,7 +22,7 @@ personal_interests: >
   
 
 profile:
-  align: right
+  align: left
   image: image.png
   image_circular: false # crops the image to make it circular
   more_info: >
