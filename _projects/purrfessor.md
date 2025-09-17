@@ -9,7 +9,7 @@ category: work
 
 <div class="row">
   <!-- 左侧：图片 + 按钮 -->
-  <div class="col-md-5 text-center">
+    <div class="col-md-5">
     <img src="{{ 'assets/img/catbot.jpg' | relative_url }}" 
          alt="Purrfessor Chatbot" 
          class="img-fluid rounded shadow-sm mb-4" 
