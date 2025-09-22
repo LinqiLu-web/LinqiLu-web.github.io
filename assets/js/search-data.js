@@ -75,7 +75,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-purrfessor",
+          section: "News",},{id: "projects-the-ai-philosopher-npcs",
+          title: 'The AI Philosopher NPCs',
+          description: "Interactive Simulations of Political Debate for Civic Learning and Resilience.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/philosopher/";
+            },},{id: "projects-purrfessor",
           title: 'Purrfessor',
           description: "A Fine-tuned LLaVA Diet Health Chatbot.",
           section: "Projects",handler: () => {
