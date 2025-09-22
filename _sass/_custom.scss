@@ -119,3 +119,15 @@ body {
     border-color: #2e7d32;
     color: #fff;
   }
+
+  .card-img-top.small-thumb {
+    max-height: 180px;  // 控制高度
+    object-fit: contain;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .small-thumb {
+    max-width: 200px;   /* 控制缩小 */
+    margin: 0 auto;     /* 保证居中 */
+  }
